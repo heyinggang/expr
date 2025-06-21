@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/expr-lang/expr/builtin"
-	"github.com/expr-lang/expr/conf"
-	"github.com/expr-lang/expr/file"
-	"github.com/expr-lang/expr/internal/deref"
-	"github.com/expr-lang/expr/vm/runtime"
+	"github.com/heyinggang/expr/builtin"
+	"github.com/heyinggang/expr/conf"
+	"github.com/heyinggang/expr/file"
+	"github.com/heyinggang/expr/internal/deref"
+	"github.com/heyinggang/expr/vm/runtime"
 )
 
 func Run(program *Program, env any) (any, error) {

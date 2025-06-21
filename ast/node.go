@@ -3,8 +3,8 @@ package ast
 import (
 	"reflect"
 
-	"github.com/expr-lang/expr/checker/nature"
-	"github.com/expr-lang/expr/file"
+	"github.com/heyinggang/expr/checker/nature"
+	"github.com/heyinggang/expr/file"
 )
 
 var (

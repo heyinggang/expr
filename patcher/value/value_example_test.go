@@ -3,9 +3,9 @@ package value_test
 import (
 	"fmt"
 
-	"github.com/expr-lang/expr"
-	"github.com/expr-lang/expr/patcher/value"
-	"github.com/expr-lang/expr/vm"
+	"github.com/heyinggang/expr"
+	"github.com/heyinggang/expr/patcher/value"
+	"github.com/heyinggang/expr/vm"
 )
 
 type myInt struct {

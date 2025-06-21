@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/expr-lang/expr/file"
-	"github.com/expr-lang/expr/internal/testify/assert"
-	"github.com/expr-lang/expr/internal/testify/require"
-	. "github.com/expr-lang/expr/parser/lexer"
+	"github.com/heyinggang/expr/file"
+	"github.com/heyinggang/expr/internal/testify/assert"
+	"github.com/heyinggang/expr/internal/testify/require"
+	. "github.com/heyinggang/expr/parser/lexer"
 )
 
 func TestLex(t *testing.T) {

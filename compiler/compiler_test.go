@@ -4,14 +4,14 @@ import (
 	"math"
 	"testing"
 
-	"github.com/expr-lang/expr/internal/testify/assert"
-	"github.com/expr-lang/expr/internal/testify/require"
+	"github.com/heyinggang/expr/internal/testify/assert"
+	"github.com/heyinggang/expr/internal/testify/require"
 
-	"github.com/expr-lang/expr"
-	"github.com/expr-lang/expr/test/mock"
-	"github.com/expr-lang/expr/test/playground"
-	"github.com/expr-lang/expr/vm"
-	"github.com/expr-lang/expr/vm/runtime"
+	"github.com/heyinggang/expr"
+	"github.com/heyinggang/expr/test/mock"
+	"github.com/heyinggang/expr/test/playground"
+	"github.com/heyinggang/expr/vm"
+	"github.com/heyinggang/expr/vm/runtime"
 )
 
 type B struct {

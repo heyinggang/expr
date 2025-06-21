@@ -1,4 +1,4 @@
-// Code generated with github.com/expr-lang/expr/internal/_codegen; DO NOT EDIT.
+// Code generated with github.com/heyinggang/expr/internal/_codegen; DO NOT EDIT.
 
 package require
 
@@ -7,7 +7,7 @@ import (
 	url "net/url"
 	time "time"
 
-	assert "github.com/expr-lang/expr/internal/testify/assert"
+	assert "github.com/heyinggang/expr/internal/testify/assert"
 )
 
 // Condition uses a Comparison to assert a complex condition.

@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/expr-lang/expr/internal/testify/require"
+	"github.com/heyinggang/expr/internal/testify/require"
 
-	"github.com/expr-lang/expr"
+	"github.com/heyinggang/expr"
 )
 
 func TestWithTimezone_date(t *testing.T) {

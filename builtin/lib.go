@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"github.com/expr-lang/expr/internal/deref"
-	"github.com/expr-lang/expr/vm/runtime"
+	"github.com/heyinggang/expr/internal/deref"
+	"github.com/heyinggang/expr/vm/runtime"
 )
 
 func Len(x any) any {

@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/expr-lang/expr/internal/testify/assert"
+	"github.com/heyinggang/expr/internal/testify/assert"
 
-	"github.com/expr-lang/expr/internal/deref"
+	"github.com/heyinggang/expr/internal/deref"
 )
 
 func TestDeref(t *testing.T) {

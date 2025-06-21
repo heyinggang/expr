@@ -5,12 +5,12 @@ import (
 	"reflect"
 	"regexp"
 
-	"github.com/expr-lang/expr/ast"
-	"github.com/expr-lang/expr/builtin"
-	. "github.com/expr-lang/expr/checker/nature"
-	"github.com/expr-lang/expr/conf"
-	"github.com/expr-lang/expr/file"
-	"github.com/expr-lang/expr/parser"
+	"github.com/heyinggang/expr/ast"
+	"github.com/heyinggang/expr/builtin"
+	. "github.com/heyinggang/expr/checker/nature"
+	"github.com/heyinggang/expr/conf"
+	"github.com/heyinggang/expr/file"
+	"github.com/heyinggang/expr/parser"
 )
 
 // Run visitors in a given config over the given tree

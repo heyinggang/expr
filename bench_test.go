@@ -3,10 +3,10 @@ package expr_test
 import (
 	"testing"
 
-	"github.com/expr-lang/expr/internal/testify/require"
+	"github.com/heyinggang/expr/internal/testify/require"
 
-	"github.com/expr-lang/expr"
-	"github.com/expr-lang/expr/vm"
+	"github.com/heyinggang/expr"
+	"github.com/heyinggang/expr/vm"
 )
 
 func Benchmark_expr(b *testing.B) {

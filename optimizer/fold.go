@@ -3,8 +3,8 @@ package optimizer
 import (
 	"math"
 
-	. "github.com/expr-lang/expr/ast"
-	"github.com/expr-lang/expr/file"
+	. "github.com/heyinggang/expr/ast"
+	"github.com/heyinggang/expr/file"
 )
 
 type fold struct {

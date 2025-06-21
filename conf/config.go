@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/expr-lang/expr/ast"
-	"github.com/expr-lang/expr/builtin"
-	"github.com/expr-lang/expr/checker/nature"
-	"github.com/expr-lang/expr/vm/runtime"
+	"github.com/heyinggang/expr/ast"
+	"github.com/heyinggang/expr/builtin"
+	"github.com/heyinggang/expr/checker/nature"
+	"github.com/heyinggang/expr/vm/runtime"
 )
 
 const (

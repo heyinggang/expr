@@ -3,12 +3,12 @@ package optimizer_test
 import (
 	"testing"
 
-	"github.com/expr-lang/expr/internal/testify/assert"
-	"github.com/expr-lang/expr/internal/testify/require"
+	"github.com/heyinggang/expr/internal/testify/assert"
+	"github.com/heyinggang/expr/internal/testify/require"
 
-	"github.com/expr-lang/expr/ast"
-	"github.com/expr-lang/expr/optimizer"
-	"github.com/expr-lang/expr/parser"
+	"github.com/heyinggang/expr/ast"
+	"github.com/heyinggang/expr/optimizer"
+	"github.com/heyinggang/expr/parser"
 )
 
 func TestOptimize_sum_map(t *testing.T) {

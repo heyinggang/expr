@@ -1,3 +1,3 @@
-module github.com/expr-lang/expr
+module github.com/heyinggang/expr
 
 go 1.18

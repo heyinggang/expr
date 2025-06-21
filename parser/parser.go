@@ -6,13 +6,13 @@ import (
 	"strconv"
 	"strings"
 
-	. "github.com/expr-lang/expr/ast"
-	"github.com/expr-lang/expr/builtin"
-	"github.com/expr-lang/expr/conf"
-	"github.com/expr-lang/expr/file"
-	. "github.com/expr-lang/expr/parser/lexer"
-	"github.com/expr-lang/expr/parser/operator"
-	"github.com/expr-lang/expr/parser/utils"
+	. "github.com/heyinggang/expr/ast"
+	"github.com/heyinggang/expr/builtin"
+	"github.com/heyinggang/expr/conf"
+	"github.com/heyinggang/expr/file"
+	. "github.com/heyinggang/expr/parser/lexer"
+	"github.com/heyinggang/expr/parser/operator"
+	"github.com/heyinggang/expr/parser/utils"
 )
 
 type arg byte
